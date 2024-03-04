@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127505004624",
+    "project_id": "rgelectric-f3b86",
+    "storage_bucket": "rgelectric-f3b86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127505004624:android:0c0050c31575a6e0eab955",
+        "android_client_info": {
+          "package_name": "com.cinntra.rgelectric"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ptaUbR5I0mZ_Ws60wVQmA4YEF3aUMJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/ic_dashboard_pending.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/ic_dashboard_receipt.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/ic_dashboard_recievable.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/ic_dashboard_sale.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/ic_payment.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/ic_pending_customer_details.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/ic_sales_customer_details.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/ic_tokenstack.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/drawable/rectangle_5.xml" value="0.141" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/activity_login.xml" value="0.17135416666666667" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/activity_main_b2_c.xml" value="0.2" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/activity_reports.xml" value="0.17135416666666667" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/activity_splash.xml" value="0.17135416666666667" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/content_scrolling_new_figma.xml" value="0.17135416666666667" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/custom_toolbar.xml" value="0.17135416666666667" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/customertransaction_detail.xml" value="0.17135416666666667" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/fragment_dashboard_from_activity.xml" value="0.2" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/item_graphs_on_dashboard.xml" value="0.2" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/transaction_content.xml" value="0.17135416666666667" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/layout/transaction_info.xml" value="0.17135416666666667" />
+        <entry key="..\:/Clients/LedgerDemoApp/LedgerApp/Ledger/app/src/main/res/menu/bottom_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

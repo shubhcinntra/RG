@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cinntra.rgelectric">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <application
+        android:name="com.cinntra.rgelectric.globals.MyApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_rg_logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_rg_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CinntraSales"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CalenderActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ParticularCustomerPaymentDueInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialFullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CreditOneActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CreditNoteParticularActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ParticularBpCreditNoteActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+
+        <activity
+            android:name="com.cinntra.rgelectric.activities.SubGroupStockActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+           />
+
+
+        <activity
+            android:name="com.cinntra.rgelectric.activities.SoldItemSubGroupActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.cinntra.rgelectric.activities.Sold_ItemBasesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+             />
+
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CategoryListFromZoneItemsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+             />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CreditNoteDashboard"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.Sale_Group_Inovice_Reports"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialFullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.GoToMapActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.TripAndExpenseDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ShowCheckInImageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.test.TestActivityForDeveloper"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ItemPurchasedParticularCustomerInfo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ItemPurchasedByListOfCustomersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ItemDetailsDashboard"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ItemDashboardListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ExpenseActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ActivityOrderOneDetails"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.PendingByOrderActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.PendingOrderSubListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.SoldItemDetailsList"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.MainActivity_B2C"
+            android:exported="false"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.Splash"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cinntra.rgelectric.activities.SearchActivity" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.InvoiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/invoice"
+            android:screenOrientation="portrait" /> <!-- android:theme="@style/FullScreen" -->
+        <activity
+            android:name="com.cinntra.rgelectric.activities.QuotationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/quotations"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ExoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/quotations"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.DemoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/quotations"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.MyMapLocation"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.WebViewToPdf"
+            android:exported="false" />
+
+        <!-- android:theme="@style/FullScreen" -->
+        <activity
+            android:name="com.cinntra.rgelectric.activities.OpportunitiesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_invoice"
+            android:screenOrientation="portrait" /> <!-- android:theme="@style/FullScreen" -->
+        <activity
+            android:name="com.cinntra.rgelectric.activities.OrderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/sales_order"
+            android:screenOrientation="portrait" /> <!-- android:theme="@style/FullScreen" -->
+        <activity
+            android:name="com.cinntra.rgelectric.activities.SignUp"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="New User"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.Sale_Inovice_Reports"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialFullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.Reports"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialFullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- android:theme="@style/MaterialFullScreen" -->
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ReceiptTransactionFullInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.InvoiceTransactionFullInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.PendingOrders"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ParticularCustomerInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialFullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ParticularCustomerReceivableInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialFullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ParticularCustomerReceiptInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialFullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ParticularCustomerSaleInfo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialFullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.SqlSetting"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.Notifications"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.DeliveryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.InvoiceItemList"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.InventoryActivity"
+            android:label="@string/inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" /> <!--  -->
+        <activity
+            android:name="com.cinntra.rgelectric.globals.MainBaseActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.LedgerReports"
+            android:label="@string/ledger"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.LeadsActivity"
+            android:label="@string/leads"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CampaignActivity"
+            android:label="@string/campaign"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CreateContact"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.AddQuotationAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.AddOrderAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.AddBPCustomer"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.AddOpportunityActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.AddLead"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.AddCampaign"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.BussinessPartners"
+            android:label="@string/customer"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.ItemsList"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.OwnerList"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.SelectedItems"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CustomersWiseLedger"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.LedgerCutomerDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen">
+
+            <!--
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CustomerDetailsLeger"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/customers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.CashDiscount"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.InvoicesListReceiptBasis"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.AddContact"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" /> <!-- Receivers -->
+        <receiver
+            android:name="com.cinntra.rgelectric.receivers.ConnectivityReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_api_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.cinntra.rgelectric.activities.MapsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.LocationListing"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/location"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cinntra.rgelectric.activities.Opportunities_Pipeline_Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_invoice"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.cinntra.rgelectric.receivers.NotificationPublisher" />
+        <!--
+ <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.cinntra.rgelectric.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="android:resource" />
+        </provider>
+
+        <service android:name="com.cinntra.rgelectric.services.GoogleService" />
+        <service
+            android:name="com.cinntra.rgelectric.FirebaseMessageReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

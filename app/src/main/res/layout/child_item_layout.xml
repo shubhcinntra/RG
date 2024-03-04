@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#80F4F4F4"
+
+    android:padding="8dp">
+
+
+    <!-- Child Item Text 1 -->
+    <TextView
+        android:id="@+id/nameSUbGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+    <!-- Child Item Text 2 -->
+    <TextView
+        android:id="@+id/quantitySUbGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#888888"/>
+
+    <TextView
+        android:id="@+id/priceSUbGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#888888"/>
+
+
+
+</LinearLayout>
